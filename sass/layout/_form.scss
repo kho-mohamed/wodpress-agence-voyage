@@ -31,4 +31,7 @@
       border: 1px solid $couleur_tertiaire;
     }
   }
+  @media (max-width: 800px) {
+    display: none;
+  }
 }
