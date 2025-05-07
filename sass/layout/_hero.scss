@@ -9,10 +9,12 @@
   justify-content: space-around;
   &__content {
     display: flex;
+    margin-left: 30px;
     gap: 15px;
     flex-direction: column;
     justify-content: space-between;
     width: 80%;
+    position: relative;
   }
   //   &__titre {
 
@@ -26,17 +28,11 @@
     justify-content: space-between;
     gap: 7px;
     margin-top: 20px;
+    font-weight: 600;
+    font-size: $police_text;
     & a {
       color: $couleur_police_texte;
       text-decoration: none;
-      font-size: $police_text;
     }
-  }
-  &__button {
-    display: block;
-    padding: 5px;
-    border-radius: 5px;
-    background-color: $couleur_secondaire;
-    width: 50px;
   }
 }
