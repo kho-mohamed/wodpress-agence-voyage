@@ -1,0 +1,20 @@
+/**
+///////////Composant .recherche
+*/
+.recherche {
+  display: flex;
+  border: 1px solid hsl(0, 0%, 67%);
+  align-items: center;
+  height: 40px;
+  border-radius: 5px;
+
+  &__input {
+    border: none;
+    outline: none;
+    height: 80%;
+  }
+  &__bouton {
+    border-left: 1px solid #aaa;
+    border-radius: 5px;
+  }
+}
