@@ -73,6 +73,9 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+.entete__toggle-icon {
+  display: none;
+}
 .entete__logo {
   width: 75px;
   height: 75px;

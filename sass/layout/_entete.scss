@@ -8,6 +8,9 @@
     justify-content: space-between;
     align-items: center;
   }
+  &__toggle-icon {
+    display: none;
+  }
   &__logo {
     width: 75px;
     height: 75px;
